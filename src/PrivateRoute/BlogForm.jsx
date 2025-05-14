@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { db } from "../Config/firebase";
 import { collection, addDoc } from "firebase/firestore";
-import './BlogForm.css';
+import './blogform.css';
 import { FaUpload, FaTimes } from "react-icons/fa";
 import axios from "axios";
 
